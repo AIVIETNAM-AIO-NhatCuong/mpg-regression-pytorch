@@ -1,10 +1,10 @@
-# 🚗 Auto MPG Fuel Efficiency Prediction with PyTorch
+# Auto MPG Fuel Efficiency Prediction with PyTorch
 
 A deep learning regression pipeline built with **PyTorch** to predict automobile fuel efficiency (Miles Per Gallon) using vehicle features such as cylinders, displacement, horsepower, weight, acceleration, model year, and origin.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository demonstrates an end-to-end Machine Learning pipeline for tabular regression using PyTorch. The goal is to build a Multi-Layer Perceptron (MLP) neural network capable of predicting the fuel economy (`MPG`) of vehicles based on technical specifications.
 
@@ -16,7 +16,7 @@ This repository demonstrates an end-to-end Machine Learning pipeline for tabular
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset used in this project is the classic **Auto MPG Dataset**.
 
@@ -35,7 +35,7 @@ The dataset used in this project is the classic **Auto MPG Dataset**.
 
 ---
 
-## 🏗 Model Architecture
+## Model Architecture
 
 A fully connected **Multi-Layer Perceptron (MLP)** with non-linear activation functions:
 
@@ -55,7 +55,7 @@ Output Layer (64 → 1)   → Continuous MPG Prediction
 
 ---
 
-## 📈 Training Results
+## Training Results
 
 The model achieved strong convergence over 100 training epochs, demonstrating high predictive accuracy without overfitting.
 
@@ -69,7 +69,7 @@ The model achieved strong convergence over 100 training epochs, demonstrating hi
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the Repository
 ```bash
@@ -87,7 +87,7 @@ Open `Auto_MPG_Prediction.ipynb` in Google Colab, Jupyter Notebook, or VS Code a
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework:** PyTorch
 - **Data Analysis & Processing:** Pandas, NumPy, Scikit-Learn
@@ -95,5 +95,5 @@ Open `Auto_MPG_Prediction.ipynb` in Google Colab, Jupyter Notebook, or VS Code a
 
 ---
 
-## 📄 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
